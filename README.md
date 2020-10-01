@@ -4,7 +4,7 @@ I have set a goal to refactor this application in 2018-2019. I want this applica
 The first issue to resolve is migrating to VueJS and a ES6 module system.
 
 Goals for the refactor
- * new much improved Desktop/tablet/phone ui
+ * new much improved Desktop/tablet/phone UI
  * touch input support
  * new logo
  * Dark/light theme
@@ -22,4 +22,4 @@ A module that stores all objects and performs calculations on those objects at a
 There's a separate branched called 'barnes-hut' which has an implementation of the barnes-hut algorithm. Supposed to be a plug and play thing where you can toggle it for greater speeds
 
 ### js/gravity/new_render.js
-The old gui and render modules have been scrapped for a new combined one that doesn't have the same annoying problem of shared state of things like the cursor or camera. Currently being worked on, sorry for any annoyance
+The old GUI and render modules have been scrapped for a new combined one that doesn't have the same annoying problem of shared state of things like the cursor or camera. Currently being worked on, sorry for any annoyance
